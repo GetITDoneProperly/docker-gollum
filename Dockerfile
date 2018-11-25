@@ -8,5 +8,5 @@ RUN gem install org-ruby  # optional
 
 WORKDIR /wiki
 
-ENTRYPOINT ["gollum", "--port", "80" "--allow-uploads", "dir"]
+ENTRYPOINT ["gollum", "--port", "80"]
 EXPOSE 80
